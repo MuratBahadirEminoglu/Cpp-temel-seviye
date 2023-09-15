@@ -1,13 +1,13 @@
-/* Deprem enstitüsünden alınan Righter ölçüsü deprem büyüklüğünde göre deprem karakteristiğini
-görüntüleyen C++ programını yazınız 
-Righter ölçüsü          Karakteristiği
--------------          ---------------
-   N < 5.0               Ufak ve hasarsız
-5.0 <= N < 6.5           Az hasarlı
-5.5 <= N < 6.5           Ciddi hasar: Çatlamalr ve çökmeler olabilir
-6.5 <= N < 7.5           Felaket: Evler ve binalar çökebilir
- Daha yüksek             Facia: Bütün yapılar yok olur 
-*/
+// Deprem enstitüsünden alınan Righter ölçüsü deprem büyüklüğünde göre deprem karakteristiğini
+//görüntüleyen C++ programını yazınız 
+//Righter ölçüsü          Karakteristiği
+//-------------          ---------------
+//   N < 5.0               Ufak ve hasarsız
+//5.0 <= N < 6.5           Az hasarlı
+//5.5 <= N < 6.5           Ciddi hasar: Çatlamalr ve çökmeler olabilir
+//6.5 <= N < 7.5           Felaket: Evler ve binalar çökebilir
+// Daha yüksek             Facia: Bütün yapılar yok olur 
+
 #include <iostream>
 
 using namespace std;
