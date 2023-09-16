@@ -1,0 +1,23 @@
+/* if kullanmadan bir sayının negatif pozitif oldugunu yazan program */
+#include <iostream>
+#include <string>
+using namespace std;
+​
+int main() {
+​
+    int rakam;
+    string sonuc;
+​
+    cout << "Rakam giriniz (0-9): ";
+    cin >> rakam;
+​
+​
+    // rakam 0 ise sonuc değişkeni "Sıfır" olur.
+    // rakam -1 ise sonuc değişkeni "Negatif" olur.
+    // rakam 1 ise sonuc değişkeni "Pozitif" olur.
+    sonuc = (rakam == 0) ? "Sıfır" : ((rakam > 0) ? "Pozitif" : "Negatif");
+​
+    cout << "Girilen rakam: " << sonuc;
+​
+    return 0;
+}
