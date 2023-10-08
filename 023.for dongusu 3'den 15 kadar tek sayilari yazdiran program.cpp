@@ -1,4 +1,4 @@
-/ * 3 den 15 e kadar tek sayilari ekranda gösteren program program */
+/* 3 den 15 e kadar tek sayilari ekranda gösteren program program */
   for(int = ; i <= 15 ; i++){
   cout << i << "\t";
   }
